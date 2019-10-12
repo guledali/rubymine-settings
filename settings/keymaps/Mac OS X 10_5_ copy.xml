@@ -28,6 +28,10 @@
     <keyboard-shortcut first-keystroke="meta left" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="shift #100007e" />
   </action>
@@ -41,9 +45,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
   <action id="ParameterInfo" />
-  <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="meta p" />
-  </action>
   <action id="TodoViewGroupByShowPackages" />
   <action id="Vcs.Log.FocusTextFilter" />
 </keymap>
